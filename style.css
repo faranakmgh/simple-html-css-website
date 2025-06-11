@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-color:rgb(21,26,45); 
+	color: white;
+}
+.navbar{
+	background-color: rgb(21,26,45);
+	
+}
+.nav-link{
+	color: aliceblue;
+}
+.nav-link:hover{
+	color: rgb(255,93,42);
+}
+
+.btn{
+	background-color: rgb(255,93,42);
+	border-radius: 30px;
+	color: white;
+	font-size: 12pt;
+	
+}
+.btn1{
+	margin-left: 300px;
+	margin-right: 15px;
+	height: 40px;
+}
+.btn:hover{
+	background-color: rgb(255,202,44);
+}
+.logo{
+	margin-left:150px;
+}
+.nav-link1{
+	margin-right: 150px;
+}
+.b1{
+	padding-top: 100px;
+	
+}
+h1{
+	font-size: 4rem;
+	line-height: 1.125;
+	font-weight: 600;
+	color: white;
+	
+}
+.theader{
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	font-size: 1.5rem;
+	line-height: 1.335;
+	
+}
+.header{
+    background-image: linear-gradient(to bottom left,rgb(3,213,224),rgb(78,5,151),rgb(21,26,45), rgb(21,26,45));
+	color: white;
+}
+.a1{
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+.btn2{
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	white-space: pre;
+}
+path{
+	fill: white;
+}
+
+.m1{
+	  font-size: 4rem;
+ 		 line-height: 1.125;
+ 		 font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ 		 font-weight: 600;
+		text-align: center;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+}
+.logo1{
+ 
+  justify-content: space-between;
+  margin: 2.5rem auto 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 740px;
+}
+h3{
+	font-size: 2.5rem;
+	line-height: 1.25;
+	font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 600;
+	padding-top: 100px;
+	
+
+}
+.m2{
+	color: inherit;
+	font-size: 1rem;
+	line-height: 1;
+	font-weight: 600;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+h4{
+	color: inherit;
+	font-size: 1.5rem;
+	line-height: 1.335;
+	font-weight: 400;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.a2{
+	color: rgb(255,93,42);
+	text-decoration: none;
+}
+.left{
+	float: left;
+	text-align: left;
+	border-left: 5px solid rgb(255,93,42);
+}
+.picinfo{
+  transform: translateZ(0);
+  transition: opacity .25s linear;
+  will-change: opacity;
+}
+.pic1{
+	width: 600px;
+	height: 700px;
+}
+.box1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.s5{
+  font-size: 2.5rem;
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 600;
+  color: inherit;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.s6{
+	text-align: center;
+}
+.btn3{
+	height: 60px;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	white-space: pre;
+	
+	}
+.s7{
+	background-image: url("../image/business-world-map.webp");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+    
+}
+.box1{
+	background-color: rgba(42,18,84,0.5);
+	border-radius: 20px;
+	padding: 20px;
+}
+.b3{
+  font-size: 3.5rem;
+  line-height: 1.125;
+  font-weight: 600;
+  color: inherit;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 600;
+  padding-top: 250px;
+  padding-bottom: 0.5rem; 
+}
+.s8{
+	background-image: linear-gradient(to bottom ,rgb(21,26,45),rgb(37,20,75), rgb(64,11,125),rgb(21,26,45)); 
+}
+.m4{
+	font-size: 3.5rem;
+	line-height: 1.125;
+	font-weight: 600;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.s9{
+	 
+	background-image: linear-gradient(to bottom ,rgb(21,26,45),rgb(39,20,79), rgb(132,69,60),rgb(220,153,2),rgb(220,153,2),rgb(132,69,60),rgb(21,26,45));
+	padding-top: 250px;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
+}
+.b11{
+	background-color: rgba(70,14,135,0.7);
+	border-radius: 20px;
+	
+}
+.b11:hover ,.b12:hover , .b13:hover{
+	
+	transform: translate3d(0 ,-30px , 20px);
+
+}
+.b12{
+	background-color: rgba(255,163,24,0.7);
+	border-radius: 20px;
+	
+}
+.b13{
+	background-color: rgba(255,234,227,0.7);
+	border-radius: 20px;
+	
+}
+.pic2{
+	border-radius: 20px;
+	height: 250px;
+	width: 400px;
+}
+.m5{
+	font-size:2rem;
+	line-height: 1.125;
+	font-weight: 400;
+	text-align: left;
+	flex-wrap: wrap
+}
+.footer{
+	background-color: rgb(79,5,153);
+	height: 500px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+h5{
+	font-size: 12pt;
+	font-weight: 400px;
+}
+.footer a{
+	font-size: 10pt;
+	color: inherit;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+.pic6{
+	  width: 288px;
+ 	 height: 48px;
+}
+.footer span{
+	margin-right: 25px;
+}
